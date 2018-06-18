@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 public class CheckPalindrome {
 
@@ -10,7 +12,11 @@ public class CheckPalindrome {
 		
 		boolean checkPalindrome=checkPalindrome("malayalam");
 		System.out.println(checkPalindrome);
-
+		
+		List<String> list=new ArrayList<String>();
+		list.add("alex");
+		
+		list.set(0, "alex");
 	}
 
 	private static boolean checkPalindrome(String str) {
